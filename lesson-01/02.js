@@ -18,7 +18,7 @@ while (count <= 10) {
 
   numbers += 1;
   count += 1;
-  // factorial = number;
+  factorial = number;
 }
-factorial = 3628800;
+// factorial = 3628800;
 // console.log(factorial);

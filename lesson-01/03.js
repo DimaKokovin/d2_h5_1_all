@@ -18,7 +18,7 @@ while (count <= 20) {
 
   number = ((numbers + 1) / 2) ** 2;
   numbers += 1;
-  // sum = number;
+  sum = number;
 }
-sum = 100;
+// sum = 100;
 // console.log(sum);
