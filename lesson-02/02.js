@@ -6,8 +6,8 @@
 
 * Для успешного прохождения тестов не меняйте названия переменных!
 */
-let number = Math.floor(1 + Math.random() * 7);
-let number2 = Math.floor(1 + Math.random() * 7);
+let number = Math.floor(1 + Math.random() * 6);
+let number2 = Math.floor(1 + Math.random() * 6);
 
 let dice1 = number; // your code
 let dice2 = number2; // your code
