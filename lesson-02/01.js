@@ -19,9 +19,15 @@ let User;
 
 // your code
 if (
-  (isAccess =
-    (isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass))
+  (User === isAdmin || User === isVerifiedUser) &&
+  (User === hasSpecialPermission || User === hasTemporaryPass)
 ) {
+  isAccess = User;
 }
 
-// if (isAccess =)
+// if (isAccess)
+// if (
+//   (isAccess =
+//     (isAdmin || isVerifiedUser) && (hasSpecialPermission || hasTemporaryPass))
+// ) {
+// }
