@@ -18,11 +18,11 @@ let isAccess;
 let User;
 
 // your code
-if (
+if ((isAccess = User) =
   (User === isAdmin || User === isVerifiedUser) &&
   (User === hasSpecialPermission || User === hasTemporaryPass)
 ) {
-  isAccess = User;
+  
 }
 
 // if (isAccess)
