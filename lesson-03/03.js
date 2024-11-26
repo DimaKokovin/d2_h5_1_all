@@ -15,3 +15,5 @@ function findLargest(number1, number2, number3) {
     }
   }
 }
+
+console.log(findLargest(7, 25, 64));
