@@ -16,16 +16,23 @@
 Подсказка: можно использовать функцию `includesElement`, которую мы написали ранее. Переписывать её не нужно, она доступна по всему проекту за счёт hoisting.
 */
 
-function findUniqueElements(array) {
-  newArrayNumbers = [];
-  for (let i = 0; i < array.length; i++) {
-    if (array[i] in newArrayNumbers) {
-    } else {
-      newArrayNumbers.push(array[i]);
-    }
-  }
+// function findUniqueElements(array) {
+//   newArrayNumbers = [];
+//   for (let i = 0; i < array.length; i++) {
+//     if (array[i] in newArrayNumbers) {
+//     } else {
+//       newArrayNumbers.push(array[i]);
+//     }
+//   }
 
-  return newArrayNumbers;
+//   return newArrayNumbers;
+// }
+
+// console.log(findUniqueElements([]));
+
+function findUniqueElements(array) {
+  let array1;
+  return [...new Set(array)];
 }
 
-console.log(findUniqueElements([]));
+console.log(findUniqueElements([1, 2, 3, 2, 1, 4]));
