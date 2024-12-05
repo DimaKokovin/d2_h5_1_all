@@ -21,8 +21,9 @@ function doubleEachCharacter(str) {
   for (let i = 0; i < str.length; i++) {
     a = str[i].repeat(2);
     b.push(a);
-    return b.join("");
+    // return b.join("");
   }
+  return b.join("");
 }
 
-console.log(doubleEachCharacter("hello"));
+console.log(doubleEachCharacter("123"));
