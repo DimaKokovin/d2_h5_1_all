@@ -16,14 +16,16 @@ includesElement([1, 2, 3], 2)  // должен вернуть `true`.
 */
 
 function includesElement(array, element) {
-  for (let index = 0; index < array.length; index++) {
+  for (let index = 0; index <= array.length; index++) {
     if (array[index] === element) {
-      console.log(array[index], element);
+      // console.log(array[0]);
+
+      // console.log(array[index], element, array.length);
       return true;
+    } else if (array[index] === undefined) {
+      // console.log(array[index], element);
+      return false;
     }
-    // } else if (array[index] !== element) {
-    //   return false;
-    // }
     // } else {
     //   // console.log(array[index], element);
     //   // return false;
