@@ -14,17 +14,15 @@
 */
 
 function doubleEachCharacter(str) {
-  let phrase;
+  //   let phrase;
   let a;
   let b = [];
 
   for (let i = 0; i < str.length; i++) {
     a = str[i].repeat(2);
     b.push(a);
-    phrase = b.join("");
+    return b.join("");
   }
-
-  return phrase;
 }
 
 console.log(doubleEachCharacter("hello"));
