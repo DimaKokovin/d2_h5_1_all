@@ -1,5 +1,6 @@
 /*
-Напишите функцию `findCommonElements`, которая принимает два массива и возвращает массив, содержащий общие элементы из обоих массивов.
+Напишите функцию `findCommonElements`, которая принимает два массива и возвращает массив,
+содержащий общие элементы из обоих массивов.
 
 Входные данные:
 
@@ -17,4 +18,12 @@ findCommonElements([1, 2, 3], [2, 3, 4]) // [2, 3]
 Подсказка: можно использовать функцию `includesElement`, которую мы написали ранее. Переписывать её не нужно, она доступна по всему проекту за счёт hoisting.
 */
 
-function findCommonElements() {}
+function findCommonElements(array1, array2) {
+  newArray = [...new Set(array1)].filter((item) => array2.includes(item));
+  //   newArray = [...new Set()];
+
+  return newArray;
+}
+
+console.log(findCommonElements([1, 2, 3], [4, 5, 6]));
+// findCommonElements([1, 2, 3], [2, 3, 4])
