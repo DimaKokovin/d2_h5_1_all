@@ -5,20 +5,20 @@
 */
 
 // your code
-let sum;
+// let sum;
 
-let count = 1;
+// let count = 1;
 
-let number = 1;
-let numbers = 0;
+// let number = 1;
+// let numbers = 0;
 
-while (count <= 20) {
-  count += 1;
-  // number = number + numbers;
+// while (count <= 20) {
+//   count += 1;
+//   // number = number + numbers;
 
-  number = ((numbers + 1) / 2) ** 2;
-  numbers += 1;
-  sum = number;
-}
+//   number = ((numbers + 1) / 2) ** 2;
+//   numbers += 1;
+//   sum = number;
+// }
 // sum = 100;
 // console.log(sum);

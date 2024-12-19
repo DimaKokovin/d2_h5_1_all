@@ -6,19 +6,19 @@
 */
 
 // your code
-let factorial;
+// let factorial;
 
-let count = 1;
+// let count = 1;
 
-let number = 1;
-let numbers = 1;
+// let number = 1;
+// let numbers = 1;
 
-while (count <= 10) {
-  number = number * numbers;
+// while (count <= 10) {
+//   number = number * numbers;
 
-  numbers += 1;
-  count += 1;
-  factorial = number;
-}
+//   numbers += 1;
+//   count += 1;
+//   factorial = number;
+// }
 // factorial = 3628800;
 // console.log(factorial);

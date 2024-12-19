@@ -13,17 +13,17 @@
 Пример работы функции: `doubleEachCharacter('hello')` вернёт `'hheelllloo'`
 */
 
-function doubleEachCharacter(str) {
-  //   let phrase;
-  let a;
-  let b = [];
+// function doubleEachCharacter(str) {
+//   //   let phrase;
+//   let a;
+//   let b = [];
 
-  for (let i = 0; i < str.length; i++) {
-    a = str[i].repeat(2);
-    b.push(a);
-    // return b.join("");
-  }
-  return b.join("");
-}
+//   for (let i = 0; i < str.length; i++) {
+//     a = str[i].repeat(2);
+//     b.push(a);
+//     // return b.join("");
+//   }
+//   return b.join("");
+// }
 
-console.log(doubleEachCharacter("123"));
+// console.log(doubleEachCharacter("123"));
