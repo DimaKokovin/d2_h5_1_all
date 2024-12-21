@@ -39,7 +39,7 @@ const gallery = {
 
 function updateGallery(obj, name_of_work, new_value) {
   if (name_of_work in obj) {
-    for (key in obj) {
+    for (let key in obj) {
       if (name_of_work === key) {
         obj[key] = new_value;
       }
