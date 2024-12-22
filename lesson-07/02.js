@@ -20,8 +20,6 @@ function isNumeric(str) {
   } else {
     return false;
   }
-
-  // your code
 }
 
 console.log(isNumeric("12.3"));
