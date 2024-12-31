@@ -14,15 +14,15 @@
 //   // your code
 // }
 
-function isNumeric(str) {
-  if (Number(str)) {
-    return true;
-  } else {
-    return false;
-  }
-}
+// function isNumeric(str) {
+//   if (Number(str)) {
+//     return true;
+//   } else {
+//     return false;
+//   }
+// }
 
-console.log(isNumeric("12.3"));
+// console.log(isNumeric("12.3"));
 // console.log(isNumeric("123")) // Ожидаемый результат: true
 // console.log(isNumeric("12.3")) // Ожидаемый результат: true
 // console.log(isNumeric("123abc")) // Ожидаемый результат: false

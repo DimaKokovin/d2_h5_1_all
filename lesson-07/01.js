@@ -19,17 +19,17 @@
 //   return arr.join(" ");
 // }
 
-function capitalizeWords(str) {
-  let arr = [];
+// function capitalizeWords(str) {
+//   let arr = [];
 
-  let a = str.split(" ");
+//   let a = str.split(" ");
 
-  for (let i = 0; i < a.length; i++) {
-    let b = a[i][0].toUpperCase() + a[i].slice(1);
-    arr.push(b);
-  }
-  // console.log(arr.join(" "));
-  return arr.join(" ");
-}
+//   for (let i = 0; i < a.length; i++) {
+//     let b = a[i][0].toUpperCase() + a[i].slice(1);
+//     arr.push(b);
+//   }
+//   // console.log(arr.join(" "));
+//   return arr.join(" ");
+// }
 
-capitalizeWords("hello world from javascript");
+// capitalizeWords("hello world from javascript");

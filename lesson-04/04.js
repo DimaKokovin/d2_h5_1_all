@@ -27,3 +27,4 @@
 // }
 
 // console.log(doubleEachCharacter("123"));
+
