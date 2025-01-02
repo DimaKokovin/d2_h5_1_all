@@ -39,24 +39,29 @@ let timerId;
 
 startButton.addEventListener("click", () => {
   let counter = 3;
-  countdownDisplay.textContent = counter;
+  // countdownDisplay.textContent = counter;
+  if (isTimerStarted === false) {
+    timerId = setInterval(function n() {
+      isTimerStarted = true;
 
-  timerId = setInterval(function n() {
-    isTimerStarted = true;
-
-    countdownDisplay.textContent = counter;
-    console.log(counter);
-    counter--;
-    if (counter < 0) {
-      countdownDisplay.textContent = "🚀";
-      clearTimeout(timerId);
-    }
-  }, 1000);
+      countdownDisplay.textContent = counter;
+      console.log(counter);
+      counter--;
+      if (counter < 0) {
+        countdownDisplay.textContent = "🚀";
+        clearTimeout(timerId);
+      }
+    }, 1000);
+  }
+  //  else if (isTimerStarted === true) {
+  //   isTimerStarted = false;
+  // }
 });
 
 cancelButton.addEventListener("click", () => {
   if (isTimerStarted === true) {
     clearTimeout(timerId);
     countdownDisplay.textContent = "Отменено";
+    isTimerStarted = false;
   }
 });
