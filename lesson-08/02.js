@@ -40,20 +40,21 @@ let timerId;
 startButton.addEventListener("click", () => {
   let counter = 3;
   // countdownDisplay.textContent = counter;
+
   if (isTimerStarted === false) {
     timerId = setInterval(function n() {
+      console.log(counter);
+      countdownDisplay.textContent = counter;
+      counter--;
       isTimerStarted = true;
 
-      countdownDisplay.textContent = counter;
-      console.log(counter);
-      counter--;
       if (counter < 0) {
         countdownDisplay.textContent = "🚀";
-        clearTimeout(timerId);
+        clearInterval(timerId);
       }
     }, 1000);
   }
-  //  else if (isTimerStarted === true) {
+  // else if (isTimerStarted === true) {
   //   isTimerStarted = false;
   // }
 });
